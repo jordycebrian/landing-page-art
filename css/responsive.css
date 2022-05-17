@@ -1,0 +1,30 @@
+@media screen and (min-width: 480px) {
+    nav ul{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    nav li{
+        flex-grow: 1;
+        text-align: center;
+    }
+    section{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    section .iamgenes{
+        flex-grow: 1;
+        text-align: center;
+    }
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    footer .acerca{
+        display: 1;
+        text-align: center;
+    }
+    iframe{
+        width: 600px;
+        
+    }
+}
